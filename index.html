@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Travel Blog</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/headlogo.png" alt="My Travel Blog" class="img-fluid" style="max-height: 50px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="navMenu">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#posts">Posts</a></li>
+                        <li class="nav-item ms-lg-2"><a class="btn btn-outline-light" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="text-white text-center">
+
+        <div class="position-relative">
+
+            <img src="img/head.svg" class="img-fluid w-100" style="height: 50vh; object-fit: cover;" alt="Japan">
+
+            <div class="position-absolute top-50 start-50 translate-middle w-100">
+                <div class="container text-white">
+
+                    <h1 class="fw-bold display-5">Welcome to Japan</h1>
+                    <p class="lead">Discover the Land of the Rising Sun</p>
+
+                    <!-- Search Bar -->
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="input-group input-group-sm" style="max-width: 260px;">
+                            <input type="text" class="form-control" placeholder="search here">
+                            <button class="btn btn-outline-light " type="button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Button Group -->
+                    <div class="d-flex justify-content-center flex-wrap mt-4 gap-2">
+                        <a href="#" class="btn btn-outline-light py-2 px-3">Top Destinations</a>
+                        <a href="#" class="btn btn-outline-light py-2 px-3">Travel Tips</a>
+                        <a href="#" class="btn btn-outline-light py-2 px-3">Foods</a>
+                        <a href="#" class="btn btn-outline-light py-2 px-3">Popular Blogs</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- SECTION 1 -->
+    <section class="py-5 bg-white" id="blogs">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+                    <img src="img/jp1.jpg" class="img-fluid rounded shadow" alt="Japan Temple">
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="fw-bold">Discover Chureito Pagoda & Mount Fuji</h2>
+                    <p class="text-muted">
+                        Tucked into the quiet hills of Fujiyoshida City, the Chureito Pagoda stands like a timeless
+                        guardian watching over the valley. Built in 1963 as part of the Arakura Sengen Shrine, this
+                        five-storied pagoda isn’t ancient—but its surroundings make it feel like you’ve stepped into an
+                        old painting of Japan.Climbing the 400+ stone steps to reach the viewpoint is almost a ritual.
+                        With every step, the city shrinks behind you, the air grows cooler, and the vast silhouette of
+                        Mount Fuji becomes sharper. At the top, the world suddenly opens up: a perfect alignment of the
+                        pagoda’s red tiers framed by a sea of cherry blossoms, all resting under Fuji’s snow-capped
+                        crown.Climbing the 400+ stone steps to reach the viewpoint is almost a ritual. With every step,
+                        the city shrinks behind you, the air grows cooler, and the vast silhouette of Mount Fuji becomes
+                        sharper.
+                    </p>
+
+                    <a href="#" class="btn btn-outline-dark px-4">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECTION 2 (Opposite Layout) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center g-4 flex-lg-row-reverse">
+
+                <div class="col-lg-6">
+                    <img src="img/jp2.jpg" class="img-fluid rounded shadow" alt="Japan Scenery">
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-dark">Explore Japan's Osaka Castle</h2>
+                    <p class="text-muted">
+                        Rising above the modern skyline of Osaka, Osaka Castle is a masterpiece of endurance.Built in
+                        1583 by Toyotomi Hideyoshi, one of Japan’s greatest warlords.Famous for its massive stone walls,
+                        gold-trimmed roofs, and that dramatic teal color.
+                        Surrounded by a huge moat and gardens full of cherry blossoms. Originally
+                        built in 1583 by the powerful warlord Toyotomi Hideyoshi, the castle was designed to be a
+                        declaration of strength—towering walls, imposing gates, and massive moats that once intimidated
+                        anyone who dared approach.Today, that same castle stands like a jewel—its emerald-green roofs,
+                        golden ornaments, and intricate architecture glistening under the changing sky. Surrounded by
+                        Osaka Castle Park, the area turns breathtaking during spring.Inside, the castle has transformed
+                        into a modern museum, telling tales of samurai battles, political intrigue, and Osaka’s rise as
+                        a major cultural and economic hub. From the top floor, the 360-degree observation deck reveals
+                        the entire city
+                    </p>
+
+
+                    <a href="#" class="btn btn-outline-dark px-4">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BLOG CARDS -->
+    <div class="container my-5" id="about">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/jp3.jpg" class="card-img-top" alt="Beach">
+                    <div class="card-body">
+                        <h5 class="card-title">Nara - home of peaceful deers </h5>
+                        <p class="card-text">Nara is Japan’s first permanent capital (710 AD), making it the literal
+                            birthplace of Japanese culture, Buddhism Nara’s deer have lived beside humans for over 1,300
+                            years, considered messengers of the gods. They roam freely, bow politely</p>
+                        <a href="#" class="btn btn-outline-dark px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/jp4.jpg" class="card-img-top" alt="Mountains">
+                    <div class="card-body">
+                        <h5 class="card-title">Mount Fuji - that stands strong</h5>
+                        <p class="card-text">There is no place in Japan more iconic or more stubbornly majestic than
+                            Mount Fuji. Rising at 3,776 meters, this perfectly symmetrical volcano stands like a silent
+                            guardian watching over the country. Seeing it in person feels different. It isn't just a
+                            mountain it’s a presence.</p>
+                        <a href="#" class="btn btn-outline-dark px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/jp5.jpg" class="card-img-top" alt="City">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo city - that never sleeps </h5>
+                        <p class="card-text">Tokyo isn’t just a city it’s a living organism. Every corner pulses with
+                            energy, and every street feels like it’s rewriting itself.A city that never stops, never
+                            sleeps. A place where ancient shrines sit next to glass towers
+                        </p>
+                        <a href="#" class="btn btn-outline-dark px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container my-5" id="posts">
+
+        <!-- Section Title -->
+        <div class="text-center mb-4">
+            <h3 class="fw-bold">Travel - Posts</h3>
+            <p class="text-muted small">Discover Japan’s hidden gems, traditions, and scenic journeys.</p>
+            <hr class="mx-auto" style="width: 80px;">
+        </div>
+
+        <div class="row g-4">
+
+            <!-- CARD -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="row g-0 h-100">
+                        <div class="col-6">
+                            <img src="img/sml2.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div class="col-6 d-flex">
+                            <div class="card-body p-2 d-flex flex-column">
+                                <small class="text-muted mb-1">Travel • 12 May</small>
+                                <h6 class="card-title fw-bold mb-1">Kyoto Streets</h6>
+                                <p class="card-text small mb-2">Explore the calming alleys of Kyoto.</p>
+                                <a href="#" class="fw-semibold small text-dark mt-auto">Read →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="row g-0 h-100">
+                        <div class="col-6">
+                            <img src="img/sml3.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div class="col-6 d-flex">
+                            <div class="card-body p-2 d-flex flex-column">
+                                <small class="text-muted mb-1">Food • 15 May</small>
+                                <h6 class="card-title fw-bold mb-1">100-year-old Shop</h6>
+                                <p class="card-text small mb-2">Comfort meals for the soul…</p>
+                                <a href="#" class="fw-semibold small text-dark mt-auto">Read →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="row g-0 h-100">
+                        <div class="col-6">
+                            <img src="img/sml1.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div class="col-6 d-flex">
+                            <div class="card-body p-2 d-flex flex-column">
+                                <small class="text-muted mb-1">Culture • 18 May</small>
+                                <h6 class="card-title fw-bold mb-1">Traditional Festivals</h6>
+                                <p class="card-text small mb-2">Experience devotion & celebration.</p>
+                                <a href="#" class="fw-semibold small text-dark mt-auto">Read →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="row g-0 h-100">
+                        <div class="col-6">
+                            <img src="img/sml4.webp" class="img-fluid w-100 h-100 object-fit-cover" alt="">
+                        </div>
+                        <div class="col-6 d-flex">
+                            <div class="card-body p-2 d-flex flex-column">
+                                <small class="text-muted mb-1">Fireworks • 10 May</small>
+                                <h6 class="card-title fw-bold mb-1">Firework Festivals</h6>
+                                <p class="card-text small mb-2">Japan’s night sky in glitter.</p>
+                                <a href="#" class="fw-semibold small text-dark mt-auto">Read →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline-dark px-4 py-2">Load More →</a>
+        </div>
+
+    </div>
+
+
+
+    <footer class="bg-dark text-white pt-5 pb-3" id="contact">
+        <div class="container">
+
+            <div class="row align-items-start">
+
+                <div class="col-md-6 mb-4">
+                    <h4 class="fw-bold">Japan Blog</h4>
+                    <p class="small mb-0">
+                        Japan-blog page is your gateway to exploring culture, and hidden gems of Japan , this blog
+                        provides curated travel stories, tips, and experiences. Dive in to discover well-organized
+                        guides,detailed insights that makes your journey through Japan easy and inspiring.
+                    </p>
+                </div>
+
+                <div class="col-md-6 mb-4 text-md-end text-center">
+                    <h5 class="fw-bold">Follow Us</h5>
+
+                    <div class="mt-2 mb-2">
+                        <a href="#" class="text-white fs-4 me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white fs-4 me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white fs-4"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center pt-3 border-top border-secondary small">
+                &copy; 2025 Japan Blog. All rights reserved.
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
